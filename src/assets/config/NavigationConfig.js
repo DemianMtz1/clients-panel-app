@@ -3,12 +3,13 @@ import {
     Switch,
     Route,
 } from "react-router-dom";
+import { Inicio } from '../views/Inicio';
 
 export const NavigationConfig = () => {
     return (
         <Switch>
             <Route path="/dashboard-clients" exact>
-                <p>Detalles generales</p>
+                <p>HOLAAAAA</p>
             </Route>
             <Route path="/view-clients" exact>
                 <p>Ver tus clientes</p>
@@ -17,7 +18,7 @@ export const NavigationConfig = () => {
                 <p>Añade tus clientes</p>
             </Route>
             <Route path="/" exact>
-                <p>Inicio</p>
+                <Inicio />
             </Route>
         </Switch>
     )

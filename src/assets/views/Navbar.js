@@ -7,7 +7,6 @@ export const Navbar = () => {
     const [show, setShow] = useState(false)
     const showNavbar = (ev) => {
         setShow(!show);
-        console.log(show)
     }
     return (
         <nav className="bg-red">

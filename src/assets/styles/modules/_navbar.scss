@@ -1,7 +1,4 @@
-$primary-color : #1b2021;
-$secondary-color : #eac8af;
-$dark-secondary-color: #d8ac9c;
-$links-color: #5f939a;
+
 
 nav {
     background-color: $primary-color;
@@ -10,7 +7,7 @@ nav {
     align-items: center;
     padding: .25rem 1.25rem;
     position: relative;
-    
+    transition: all 0.5s;
     p {
         font-size: 30px;
         a{
@@ -34,6 +31,7 @@ nav {
     }
     .d-none{
         display: none;
+        
     }
     .d-visible {
         display: flex;
